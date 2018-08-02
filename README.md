@@ -25,10 +25,14 @@ You can follow along step by step here: [Get development started with Sitecore ]
 5. [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community) [(Installation instructions)](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mdb-edition)
 6. [SIM](http://dl.sitecore.net/updater/sim/)
 7. [Node js](https://nodejs.org/en/)
+8. Bootstrap template
 
-
+## Project setup
+1. Configure your publish profile. Create a copy of the file: `FolderProfile.pubxml.example` located on `/SitecoreDemo.Web/Properties/PublishProfiles/` on that same directory
+but remove `.example` from your copy. **Note:** Do not remove the example file
+2. Open your newly created `FolderProfile.pubxml.example` file and update the `<publishUrl>` node according to the directory where you have your Sitecore instance
 
 ## TODO
 - [ ] Create local development configurations for unicorn
-- [ ] Add steps to have the code working with a Sitecore blank instance
+- [ ] Complete steps to have the code working with a Sitecore blank instance
 
