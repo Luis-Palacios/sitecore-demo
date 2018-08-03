@@ -28,9 +28,11 @@ You can follow along step by step here: [Get development started with Sitecore ]
 8. Bootstrap template
 
 ## Project setup
-1. Configure your publish profile. Create a copy of the file: `FolderProfile.pubxml.example` located on `/SitecoreDemo.Web/Properties/PublishProfiles/` on that same directory
+1. Make sure that your MongoDb server is up and running
+2. Use SIM to create a new Sitecore Instance
+3. Configure your publish profile. Create a copy of the file: `FolderProfile.pubxml.example` located on `/SitecoreDemo.Web/Properties/PublishProfiles/` on that same directory
 but remove `.example` from your copy. **Note:** Do not remove the example file
-2. Open your newly created `FolderProfile.pubxml.example` file and update the `<publishUrl>` node according to the directory where you have your Sitecore instance
+4. Open your newly created `FolderProfile.pubxml.example` file and update the `<publishUrl>` node according to the directory where you have your Sitecore instance
 
 ## TODO
 - [ ] Create local development configurations for unicorn
