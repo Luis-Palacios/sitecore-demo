@@ -23,7 +23,7 @@ You can follow along step by step here: [Get development started with Sitecore ]
 3. [URL Rewrite 2](https://www.iis.net/downloads/microsoft/url-rewrite)
 4. [SQL Server](https://go.microsoft.com/fwlink/?linkid=853017 )
 5. [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community) [(Installation instructions)](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mdb-edition)
-6. [SIM](http://dl.sitecore.net/updater/sim/)
+6. [SIM](http://dl.sitecore.net/updater/sim/) **Note:** This project is setup to work with version 8.2 170728 Update - 5
 7. [Node js](https://nodejs.org/en/)
 8. Bootstrap template
 
