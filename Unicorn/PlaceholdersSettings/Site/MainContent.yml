@@ -1,0 +1,18 @@
+﻿---
+ID: "84d441c8-5118-4ace-a72e-f2154af5359e"
+Parent: "e7b9a55a-03ef-429f-a5a2-67566b9e84a1"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Site/MainContent
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: MainContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T205920Z
