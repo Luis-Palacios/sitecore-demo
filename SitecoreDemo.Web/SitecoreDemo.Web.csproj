@@ -189,10 +189,12 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\Unicorn\Site\Unicorn.Site.Config" />
+    <Content Include="App_Config\Include\zzz\z.LocalDevelopment.config" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Properties\PublishProfiles\FolderProfile.pubxml.example" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
