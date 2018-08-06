@@ -31,8 +31,12 @@ You can follow along step by step here: [Get development started with Sitecore ]
 1. Make sure that your MongoDb server is up and running
 2. Use SIM to create a new Sitecore Instance
 3. Configure your publish profile. Create a copy of the file: `FolderProfile.pubxml.example` located on `/SitecoreDemo.Web/Properties/PublishProfiles/` on that same directory
-but remove `.example` from your copy. **Note:** Do not remove the example file
-4. Open your newly created `FolderProfile.pubxml.example` file and update the `<publishUrl>` node according to the directory where you have your Sitecore instance
+but remove `.example` from your copy.
+4. Open your newly created `FolderProfile.pubxml.example` file and update the `<publishUrl>` 
+node according to the directory where you have your Sitecore instance
+5. Configure your source folder:. Create a copy of the file: `z.LocalDevelopment.config.example` located on `\SitecoreDemo.Web\App_Config\Include\zzz\` on that same directoy
+but remove the `.example` from your copy
+6. Open your new created `z.LocalDevelopment.config` file and update the sourceFolder value to the location where you want to put your searialized items
 
 ## TODO
 - [ ] Create local development configurations for unicorn
