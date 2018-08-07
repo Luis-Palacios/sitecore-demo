@@ -12,6 +12,25 @@ Languages:
     - ID: "042f0b08-7241-450f-b43f-47bf9e1b43b2"
       Hint: MetaDescription
       Value: This is the meta description
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C286BEE7-28F6-48AC-BDF2-628E505051E5}"
+              s:ds="{EAA96C3B-8723-4BF8-802F-E08230CAC427}" />
+            <r
+              uid="{690A6EB8-D706-4D8B-8133-EA803FF943AE}"
+              s:ds="{C2EFF36F-FC03-4B94-9344-9749AE31DC3D}" />
+            <r
+              uid="{6C540D52-8ACA-4601-83FD-BCFEAF01EB79}"
+              s:ds="{8C18E037-26E9-41C4-829C-1B4C778BDB43}" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180803T163933Z

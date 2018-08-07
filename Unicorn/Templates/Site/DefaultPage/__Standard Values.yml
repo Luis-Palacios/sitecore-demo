@@ -12,7 +12,32 @@ SharedFields:
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{DAEB1775-D9C5-49D9-9420-E66E0E62BC4E}" />
+        l="{DAEB1775-D9C5-49D9-9420-E66E0E62BC4E}">
+        <p
+          uid="{2935488B-F58E-44C9-ACDD-9BC276F2A6B5}"
+          key="MainContent"
+          md="/sitecore/layout/Placeholder Settings/Site/MainContent" />
+        <p
+          uid="{8A8A37C1-9180-4B1D-A4BF-497BDEB913E2}"
+          key="BottomContent"
+          md="/sitecore/layout/Placeholder Settings/Site/BottomContent" />
+        <p
+          uid="{CC780655-04FE-468B-9765-6F181E0FF18C}"
+          key="TopContent"
+          md="/sitecore/layout/Placeholder Settings/Site/TopContent" />
+        <r
+          id="{3861D223-9360-4199-AAE4-6ED7DC066A9E}"
+          ph="MainContent"
+          uid="{C286BEE7-28F6-48AC-BDF2-628E505051E5}" />
+        <r
+          id="{3861D223-9360-4199-AAE4-6ED7DC066A9E}"
+          ph="BottomContent"
+          uid="{690A6EB8-D706-4D8B-8133-EA803FF943AE}" />
+        <r
+          id="{6324C1C1-5798-4FBE-BF6E-F66B8FCD3A39}"
+          ph="TopContent"
+          uid="{6C540D52-8ACA-4601-83FD-BCFEAF01EB79}" />
+      </d>
     </r>
 Languages:
 - Language: en

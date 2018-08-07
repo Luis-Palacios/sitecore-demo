@@ -1,0 +1,28 @@
+﻿---
+ID: "40c6081e-8509-4832-b215-6c2fe584eb34"
+Parent: "7ed7a286-1530-4cb6-9d17-1a1343f06d0e"
+Template: "e7ae101d-f9f6-4a47-98d0-04b2329e1a0f"
+Path: /sitecore/content/Carousels/Slides/Home/FirstSlide
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15deef16-59a0-486c-8d89-e343d109bc43"
+      Hint: Caption
+      Value: We are getting there
+    - ID: "1a02466c-51fe-46e0-9153-acfa1304401e"
+      Hint: Image
+      Value: |
+        <image mediaid="{7565A36C-A601-49FD-BC56-06A16E219020}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T165643Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b308c690-66eb-40b4-b764-fdb043b37057"
+      Hint: Title
+      Value: Sitecore development

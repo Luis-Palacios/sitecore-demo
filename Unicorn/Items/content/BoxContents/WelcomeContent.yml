@@ -1,0 +1,28 @@
+﻿---
+ID: "eaa96c3b-8723-4bf8-802f-e08230cac427"
+Parent: "27d826ff-b5a1-44fe-bca8-ab0fc86a0cf0"
+Template: "484a636e-cccc-4f3d-9481-43cf18b0f38b"
+Path: /sitecore/content/BoxContents/WelcomeContent
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T231533Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5e54e362-7535-4ef2-9be2-ae15354e065c"
+      Hint: Title
+      Value: Build a website worth visiting
+    - ID: "6f2e2f6f-e731-4437-a799-c1a412886d9d"
+      Hint: Content
+      Value: "The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize. A huge thanks to Death to the Stock Photo for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also, make sure that the file size on your photos is kept to a minimum to keep load times to a minimum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    - ID: "f169e184-4436-4611-a58c-c6931073b889"
+      Hint: Image
+      Value: |
+        <image mediaid="{4B48D87B-E463-42DD-B0F2-F45C382F6204}" ></image>

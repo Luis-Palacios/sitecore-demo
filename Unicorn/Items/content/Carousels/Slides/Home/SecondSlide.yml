@@ -1,0 +1,22 @@
+﻿---
+ID: "149bd636-7e67-41df-99ab-71e6149d54d4"
+Parent: "7ed7a286-1530-4cb6-9d17-1a1343f06d0e"
+Template: "e7ae101d-f9f6-4a47-98d0-04b2329e1a0f"
+Path: /sitecore/content/Carousels/Slides/Home/SecondSlide
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a02466c-51fe-46e0-9153-acfa1304401e"
+      Hint: Image
+      Value: |
+        <image mediaid="{5DB55759-71D7-4919-9D57-725593ED7DEC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T173121Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
