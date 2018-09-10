@@ -1,0 +1,21 @@
+﻿---
+ID: "16e2bcf3-3cd9-4056-8e09-ac9d6bc28289"
+Parent: "905caddb-df6a-49a1-8ddb-062cfb498a27"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Site/Global/Header
+DB: master
+SharedFields:
+- ID: "2e51df70-d3e4-458c-b03a-95c734dd39e7"
+  Hint: Datasource
+  Value: "{F8F2E704-5F48-4B9A-AD55-470833A44B45}"
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Sitecore/Views/Shared/Header.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T224202Z

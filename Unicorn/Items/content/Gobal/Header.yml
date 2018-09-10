@@ -1,0 +1,24 @@
+﻿---
+ID: "f8f2e704-5f48-4b9a-ad55-470833a44b45"
+Parent: "6711cb6f-06ba-4853-b924-befbf71578d3"
+Template: "3c22fc16-e34c-420a-a0d2-c68a9df2cca0"
+Path: /sitecore/content/Gobal/Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0cae1a36-6cb7-42c7-bd24-2d22f729f944"
+      Hint: ContactInfo
+      Value: 3481 Simple Place | Simple Hills, CA 90210 | 123.456.7890
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T203125Z
+    - ID: "2690e16d-acd6-444f-b8a7-ff524e8a6215"
+      Hint: Title
+      Value: Simple Demo
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

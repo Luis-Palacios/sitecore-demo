@@ -1,0 +1,21 @@
+﻿---
+ID: "c54c71ac-ef71-4cb4-b8f7-97e265883cd6"
+Parent: "6711cb6f-06ba-4853-b924-befbf71578d3"
+Template: "8a1e557b-1ebb-4e48-b686-2029f3fe7aef"
+Path: /sitecore/content/Gobal/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T203110Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "881f489d-2c3d-4b77-b70d-a820634c9f71"
+      Hint: Copyright
+      Value: Copyright © Simple Demo 2018

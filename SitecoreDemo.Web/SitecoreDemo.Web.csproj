@@ -218,6 +218,8 @@
     <Content Include="Properties\PublishProfiles\FolderProfile.pubxml.example" />
     <Content Include="Sitecore\Views\DefaultBoxContent.cshtml" />
     <Content Include="Sitecore\Views\Carousel.cshtml" />
+    <Content Include="Sitecore\Views\Shared\Header.cshtml" />
+    <Content Include="Sitecore\Views\Shared\Footer.cshtml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
