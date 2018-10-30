@@ -6,7 +6,7 @@ Path: /sitecore/layout/Renderings/Site/Global/Footer
 DB: master
 SharedFields:
 - ID: "2e51df70-d3e4-458c-b03a-95c734dd39e7"
-  Hint: Datasource
+  Hint: Data source
   Value: "{C54C71AC-EF71-4CB4-B8F7-97E265883CD6}"
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
