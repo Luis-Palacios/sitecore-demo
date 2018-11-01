@@ -8,8 +8,25 @@
             @Html.Sitecore().Field("Title")
         </h2>
         <hr>
-        @Html.Sitecore().Field("Image", new { @class = "img-responsive img-border img-left" })
-        <hr class="visible-xs">
-        @Html.Sitecore().Field("Content")
     </div>
+    @{ 
+        var currentItem = Html.Sitecore().CurrentItem;
+        var imageField = currentItem.Fields["Image"];
+    }
+    @if (imageField != null && imageField.HasValue)
+    {
+        <div class="col-md-4">
+            @Html.Sitecore().Field("Image", new { @class = "img-responsive img-border img-left" })
+        </div>
+        <div class="col-md-8">
+            <hr class="visible-xs">
+            @Html.Sitecore().Field("Content")
+        </div>
+    }
+    else
+    {
+        <div class="col-md-12">
+            @Html.Sitecore().Field("Content")
+        </div>
+    }
 </div>

@@ -4,6 +4,11 @@ Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
 Template: "1be3c950-4f9b-4ad7-bccb-0253e88f4882"
 Path: /sitecore/content/Home
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1BE3C950-4F9B-4AD7-BCCB-0253E88F4882}"
 Languages:
 - Language: en
   Versions:

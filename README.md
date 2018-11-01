@@ -44,8 +44,3 @@ You can follow along step by step here: [Get-development-started-with-Sitecore](
 10. Navigate to the Sitecore instance and see if it is still working if you get Access to the path is denied grant permissions to the newtwork service to the you source folder.
 11. You should still see the vanilla sitecore running, log in in /sitecore as admin user and navigate to /unicorn.aspx and run the sync
 12. You should now see the updated Sitecore Site
-
-## TODO
-
-- [ ] Create local development configurations for unicorn
-- [ ] Complete steps to have the code working with a Sitecore blank instance

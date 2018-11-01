@@ -1,0 +1,24 @@
+﻿---
+ID: "ca58dde8-42ce-4e9b-9903-7c6687c24049"
+Parent: "bfdebba7-91e9-4b73-ae4c-5eeb683fd852"
+Template: "f5274d54-3df4-454b-941c-fb8e2bf55ede"
+Path: /sitecore/content/Team/JohnDoe
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T230958Z
+    - ID: "2df7224d-50f0-422e-99d0-f8f4593014d7"
+      Hint: Picture
+      Value: |
+        <image mediaid="{F4A31108-AB14-4B23-A556-21243DDC4CA0}" />
+    - ID: "87023e70-79dc-4cc7-89f7-1e7d94eaa42d"
+      Hint: JobTitle
+      Value: C.T.O
+    - ID: "ff523f55-ce70-4caf-8465-f502d5f40cd8"
+      Hint: Name
+      Value: John Doe

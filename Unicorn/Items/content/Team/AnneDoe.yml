@@ -1,0 +1,24 @@
+﻿---
+ID: "b3c51a55-4c8b-4d72-b7a5-2fdbae4c98b2"
+Parent: "bfdebba7-91e9-4b73-ae4c-5eeb683fd852"
+Template: "f5274d54-3df4-454b-941c-fb8e2bf55ede"
+Path: /sitecore/content/Team/AnneDoe
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T230911Z
+    - ID: "2df7224d-50f0-422e-99d0-f8f4593014d7"
+      Hint: Picture
+      Value: |
+        <image mediaid="{F409C8C3-EDC2-4D01-9C53-1C2AF7672426}" />
+    - ID: "87023e70-79dc-4cc7-89f7-1e7d94eaa42d"
+      Hint: JobTitle
+      Value: C.E.O
+    - ID: "ff523f55-ce70-4caf-8465-f502d5f40cd8"
+      Hint: Name
+      Value: Anne Doe

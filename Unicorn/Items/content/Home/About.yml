@@ -1,0 +1,46 @@
+﻿---
+ID: "9c0f7b24-e476-452c-93c4-73bcaa5150db"
+Parent: "39dd0dfb-b06c-49ca-aabe-86ee8a8a5f92"
+Template: "1be3c950-4f9b-4ad7-bccb-0253e88f4882"
+Path: /sitecore/content/Home/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "042f0b08-7241-450f-b43f-47bf9e1b43b2"
+      Hint: MetaDescription
+      Value: All about this amazing simple demo page
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4A1EB9F3-FFB7-4299-8554-3AFAFCE057F3}"
+              p:after="p[@uid='{CC780655-04FE-468B-9765-6F181E0FF18C}']"
+              s:id="{C3511A4C-2C9E-47A5-B9B3-AACA17F25311}"
+              s:ph="BottomContent" />
+            <r
+              uid="{C286BEE7-28F6-48AC-BDF2-628E505051E5}"
+              s:ds="{CD3B68FC-B701-44D7-B57D-DF7665E976DC}" />
+            <r
+              uid="{690A6EB8-D706-4D8B-8133-EA803FF943AE}">
+              <p:d />
+            </r>
+            <r
+              uid="{6C540D52-8ACA-4601-83FD-BCFEAF01EB79}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T205600Z
+    - ID: "e1f7107e-7afa-433d-b58d-cf7b497bd277"
+      Hint: PageTitle
+      Value: About Simple Demo

@@ -220,6 +220,7 @@
     <Content Include="Sitecore\Views\Carousel.cshtml" />
     <Content Include="Sitecore\Views\Shared\Header.cshtml" />
     <Content Include="Sitecore\Views\Shared\Footer.cshtml" />
+    <Content Include="Sitecore\Views\Team.cshtml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>

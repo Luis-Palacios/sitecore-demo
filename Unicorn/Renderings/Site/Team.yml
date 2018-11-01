@@ -1,16 +1,16 @@
 ﻿---
-ID: "3861d223-9360-4199-aae4-6ed7dc066a9e"
+ID: "c3511a4c-2c9e-47a5-b9b3-aaca17f25311"
 Parent: "0734ff11-0143-44a1-9d87-4255e92b87ef"
 Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
-Path: /sitecore/layout/Renderings/Site/DefaultBoxContent
+Path: /sitecore/layout/Renderings/Site/Team
 DB: master
 SharedFields:
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
-  Value: /Sitecore/Views/DefaultBoxContent.cshtml
+  Value: /Sitecore/Views/Team.cshtml
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 150
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180806T220042Z
+      Value: 20181030T231319Z

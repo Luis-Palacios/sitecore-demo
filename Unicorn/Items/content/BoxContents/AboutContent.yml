@@ -1,0 +1,31 @@
+﻿---
+ID: "cd3b68fc-b701-44d7-b57d-df7665e976dc"
+Parent: "27d826ff-b5a1-44fe-bca8-ab0fc86a0cf0"
+Template: "484a636e-cccc-4f3d-9481-43cf18b0f38b"
+Path: /sitecore/content/BoxContents/AboutContent
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T213132Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5e54e362-7535-4ef2-9be2-ae15354e065c"
+      Hint: Title
+      Value: About Simple Demo
+    - ID: "6f2e2f6f-e731-4437-a799-c1a412886d9d"
+      Hint: Content
+      Value: |
+        Praesent ac sem eget est egestas volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Praesent ac sem eget est egestas volutpat. Quisque ut nisi.
+        
+        Cras non dolor. Etiam ultricies nisi vel augue. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Fusce pharetra convallis urna.
+    - ID: "f169e184-4436-4611-a58c-c6931073b889"
+      Hint: Image
+      Value: |
+        <image mediaid="{70ED246D-5C88-4A2A-8A6D-0768A269FB6D}" ></image>

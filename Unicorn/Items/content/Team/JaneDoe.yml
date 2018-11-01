@@ -1,0 +1,24 @@
+﻿---
+ID: "7227a312-0e60-4706-aa9f-961fb1ad312f"
+Parent: "bfdebba7-91e9-4b73-ae4c-5eeb683fd852"
+Template: "f5274d54-3df4-454b-941c-fb8e2bf55ede"
+Path: /sitecore/content/Team/JaneDoe
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T230943Z
+    - ID: "2df7224d-50f0-422e-99d0-f8f4593014d7"
+      Hint: Picture
+      Value: |
+        <image mediaid="{151FCA75-463F-4D66-A03C-05AAE3FE2256}" />
+    - ID: "87023e70-79dc-4cc7-89f7-1e7d94eaa42d"
+      Hint: JobTitle
+      Value: C.O.O
+    - ID: "ff523f55-ce70-4caf-8465-f502d5f40cd8"
+      Hint: Name
+      Value: Jane Doe
