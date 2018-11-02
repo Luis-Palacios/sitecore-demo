@@ -1,13 +1,12 @@
-﻿@inherits System.Web.Mvc.WebViewPage
-@using Sitecore.Mvc
-@using Sitecore.Links
+﻿@using Sitecore.Links
 @using Sitecore.Data.Items
+@using SitecoreDemo.Web.Utils
 
 <div class="brand">@Html.Sitecore().Field("Title")</div>
 <div class="address-bar">@Html.Sitecore().Field("ContactInfo")</div>
 @{ 
-    Item homePage = Sitecore.Context.Database.GetItem("{39DD0DFB-B06C-49CA-AABE-86EE8A8A5F92}");
-    Item aboutPage = Sitecore.Context.Database.GetItem("{9C0F7B24-E476-452C-93C4-73BCAA5150DB}");
+    Item homePage = Sitecore.Context.Database.GetItem(SitecoreConstants.PageIds.HOME);
+    Item aboutPage = Sitecore.Context.Database.GetItem(SitecoreConstants.PageIds.ABOUT);
 }
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">

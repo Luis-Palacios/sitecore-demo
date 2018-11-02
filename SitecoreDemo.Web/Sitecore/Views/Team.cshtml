@@ -1,9 +1,8 @@
-﻿@inherits System.Web.Mvc.WebViewPage
-@using Sitecore.Mvc;
+﻿@using SitecoreDemo.Web.Utils;
 
 @{
     var team = Sitecore.Context.Database
-                .GetItem("{BFDEBBA7-91E9-4B73-AE4C-5EEB683FD852}")
+                .GetItem(SitecoreConstants.ContentFolderIds.TEAM)
                 .GetChildren()
                 .ToList();
 }

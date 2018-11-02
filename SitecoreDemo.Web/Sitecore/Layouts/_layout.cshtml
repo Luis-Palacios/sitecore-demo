@@ -1,6 +1,4 @@
-﻿@using Sitecore.Mvc;
-
-@inherits System.Web.Mvc.WebViewPage
+﻿@using SitecoreDemo.Web.Utils
 
 @{
     Layout = null;
@@ -32,7 +30,7 @@
 </head>
 <body>
     <header>
-        @Html.Sitecore().Rendering("{16E2BCF3-3CD9-4056-8E09-AC9D6BC28289}")
+        @Html.Sitecore().Rendering(SitecoreConstants.RenderingIds.HEADER)
     </header>
     <div class="container">
         <div class="row">
@@ -47,7 +45,7 @@
     </div>
     <!-- /.container -->
     <footer>
-        @Html.Sitecore().Rendering("{99185C5D-DFF2-40AA-9898-74BA256D85DC}")
+        @Html.Sitecore().Rendering(SitecoreConstants.RenderingIds.FOOTER)
     </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
