@@ -1,11 +1,7 @@
-﻿@using SitecoreDemo.Web.Utils;
+﻿@using SitecoreDemo.Web.Models;
 
-@{
-    var team = Sitecore.Context.Database
-                .GetItem(SitecoreConstants.ContentFolderIds.TEAM)
-                .GetChildren()
-                .ToList();
-}
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Team>
+
 <div class="box">
     <div class="col-lg-12">
         <hr>
@@ -15,13 +11,13 @@
         </h2>
         <hr>
     </div>
-    @foreach (var staff in team)
+    @foreach (var staff in Model.OurTeam)
     {
         <div class="col-sm-4 text-center">
-            @Html.Sitecore().Field("Picture", staff, new { style = "max-width:100%" })
+            @Editable(staff, x => x.Picture , new { style = "max-width:100%" })
             <h3>
-                @Html.Sitecore().Field("Name", staff)
-                <small>@Html.Sitecore().Field("JobTitle", staff)</small>
+                @Editable(staff, x=> x.Name, staff)
+                <small>@Editable(staff, x=> x.JobTitle)</small>
             </h3>
         </div>
     }
