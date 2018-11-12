@@ -1,10 +1,10 @@
-﻿@inherits System.Web.Mvc.WebViewPage
-@using Sitecore.Mvc
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Footer>
+@using SitecoreDemo.Web.Models
 
 <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <p>@Html.Sitecore().Field("Copyright")</p>
+            <p>@Editable(m => m.Copyright)</p>
         </div>
     </div>
 </div>
