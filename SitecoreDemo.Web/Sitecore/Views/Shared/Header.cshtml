@@ -1,13 +1,12 @@
-﻿@using Sitecore.Links
-@using Sitecore.Data.Items
-@using SitecoreDemo.Web.Utils
+﻿@using SitecoreDemo.Web.Models
 
-<div class="brand">@Html.Sitecore().Field("Title")</div>
-<div class="address-bar">@Html.Sitecore().Field("ContactInfo")</div>
-@{ 
-    Item homePage = Sitecore.Context.Database.GetItem(SitecoreConstants.PageIds.HOME);
-    Item aboutPage = Sitecore.Context.Database.GetItem(SitecoreConstants.PageIds.ABOUT);
-}
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Header>
+
+@{ var currentPage = GetContextItem<SitecoreDemo.Web.Models.Page>(); }
+
+<div class="brand">@Editable(x=> x.Title)</div>
+<div class="address-bar">@Editable(x => x.ContactInfo)</div>
+
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
@@ -25,12 +24,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li>
-                    <a href="@LinkManager.GetItemUrl(homePage)">Home</a>
-                </li>
-                <li>
-                    <a href="@LinkManager.GetItemUrl(aboutPage)">About</a>
-                </li>
+                @foreach (var page in Model.Pages)
+                {
+                    <li class="@(currentPage.Name == page.Name ? "active": "")">
+                        <a href="@page.Url">@page.Name</a>
+                    </li>
+                }
                 <li>
                     <a href="blog.html">Blog</a>
                 </li>
