@@ -248,6 +248,10 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="Models\BaseModel.cs" />
+    <Compile Include="Models\BaseTitleModel.cs" />
+    <Compile Include="Models\Carousel.cs" />
+    <Compile Include="Models\CarouselSlide.cs" />
+    <Compile Include="Models\DefaultBoxContent.cs" />
     <Compile Include="Models\DefaultPage.cs" />
     <Compile Include="Models\Footer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
